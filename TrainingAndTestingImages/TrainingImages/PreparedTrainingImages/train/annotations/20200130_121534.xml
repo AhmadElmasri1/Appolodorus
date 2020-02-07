@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>20200130_121534.jpg</filename>
+	<path>/home/zema/Documents/Appolodorus/TrainingAndTestingImages/TrainingImages/PreparedTrainingImages/train/images/20200130_121534.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>50</width>
+		<height>100</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>39</ymin>
+			<xmax>30</xmax>
+			<ymax>60</ymax>
+		</bndbox>
+	</object>
+</annotation>

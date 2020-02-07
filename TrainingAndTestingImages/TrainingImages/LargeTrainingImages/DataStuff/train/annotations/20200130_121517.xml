@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Nut</folder>
+	<filename>20200130_121517.jpg</filename>
+	<path>/home/ahmad/Documents/Appolodorus/TrainingAndTestingImages/TrainingImages/LargeTrainingImages/Nut/20200130_121517.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2268</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Nut</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>1055</ymin>
+			<xmax>1602</xmax>
+			<ymax>2605</ymax>
+		</bndbox>
+	</object>
+</annotation>

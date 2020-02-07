@@ -1,0 +1,26 @@
+<annotation>
+	<folder>FinishedAssembly</folder>
+	<filename>20200130_121141.jpg</filename>
+	<path>/home/ahmad/Documents/Appolodorus/TrainingAndTestingImages/TrainingImages/LargeTrainingImages/FinishedAssembly/20200130_121141.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2268</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>FinishedAssembly</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>640</xmin>
+			<ymin>305</ymin>
+			<xmax>1848</xmax>
+			<ymax>3555</ymax>
+		</bndbox>
+	</object>
+</annotation>
