@@ -67,11 +67,11 @@ while True:
     distanceImage = mainCamera.getDepthFrame()
     # if os.path.exists('/home/zema/Documents/Appolodorus/TrainingAndTestingImages/WebCamImage/CamImage.jpg'):
     #     os.remove('/home/zema/Documents/Appolodorus/TrainingAndTestingImages/WebCamImage/CamImage.jpg')
-    cv2.imwrite("../TrainingAndTestingImages/WebCamImage/CamImage.jpg", colorImage)
+    cv2.imwrite("../TrainingAndTestingData/ImageTempFolder/CamImage.jpg", colorImage)
 
     # videoPath = detector.detectCustomObjectsFromVideo(camera_input=camera,output_file_path='../Models/', frames_per_second=20, log_progress=True, minimum_percentage_probability=30)
     detectionResults = detector.detectObjectsFromImage(input_image="../TrainingAndTestingImages/WebCamImage/CamImage.jpg",
-                                    output_image_path="../TrainingAndTestingImages/WebCamImage/Detection.jpg", output_type="array", minimum_percentage_probability=60)
+                                                       output_image_path="../TrainingAndTestingData/ImageTempFolder/Detection.jpg", output_type="array", minimum_percentage_probability=60)
     print(detectionResults[0].shape)
 
 
